@@ -22,7 +22,7 @@ struct Boton: View {
                     aumento += 0.5
                 }
             }) {
-                Text("+")
+                Text("I'm too young to die")
                     .padding(10)
             }
             .frame(width: 100, height: 50)

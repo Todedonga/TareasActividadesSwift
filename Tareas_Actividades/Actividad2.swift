@@ -29,19 +29,22 @@ struct Actividad2: View {
                                 .cornerRadius(3)
                             Text("155 min")
                         }
+                        .padding(.trailing, 220)
+                        
                         Text("Demon Slayer: Kimetsu no Yaiba Castillo Infinito")
                             .font(.title)
                             .fontWeight(.bold)
                             .truncationMode(.middle)
                             .lineLimit(2)
+                            .frame(width: 300)
                         HStack {
                             Text("Ver detalle")
                                 .foregroundColor(.blue)
                                 .fontWeight(.bold)
                             Image(systemName: "info.circle")
                                 .foregroundColor(.blue)
-                                
                         }
+                        .padding(.trailing, 220)
                     }
                     
                     VStack {
@@ -58,6 +61,7 @@ struct Actividad2: View {
                                 .cornerRadius(3)
                             Text("116 min")
                         }
+                        .padding(.trailing, 220)
                         Text("Armand, Una Acusación Peligrosa")
                             .font(.title)
                             .fontWeight(.bold)
@@ -69,8 +73,8 @@ struct Actividad2: View {
                                 .fontWeight(.bold)
                             Image(systemName: "info.circle")
                                 .foregroundColor(.blue)
-                                
                         }
+                        .padding(.trailing, 220)
                     }
                     
                 }

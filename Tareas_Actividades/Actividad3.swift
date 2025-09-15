@@ -9,7 +9,60 @@ import SwiftUI
 
 struct Actividad3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+        
+            Button(action: {
+                withAnimation() {
+                    
+                }
+            }) {
+                Text("+")
+                    .padding(10)
+            }
+            .frame(width: 100, height: 50)
+            .background(Color.green)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                   
+                }
+            }) {
+                Text("-")
+                    .padding(10)
+            }
+            .frame(width: 100, height: 50)
+            .background(Color.green)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                   
+                }
+            }) {
+                Text("-")
+                    .padding(10)
+            }
+            .frame(width: 100, height: 50)
+            .background(Color.green)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                   
+                }
+            }) {
+                Text("-")
+                    .padding(10)
+            }.buttonStyle(MyGradientStyle ())
+            
+        }
+        
     }
 }
 
