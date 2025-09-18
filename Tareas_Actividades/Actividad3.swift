@@ -8,60 +8,113 @@
 import SwiftUI
 
 struct Actividad3: View {
+    @State var goku: String = "base"
     var body: some View {
+        
+        
         
         VStack {
             
+            Image(goku)
+                .resizable()
+                .frame(width: 150, height: 350)
+            
         
             Button(action: {
                 withAnimation() {
-                    
+                    goku = "base"
                 }
             }) {
-                Text("+")
-                    .padding(10)
+                Text("Base Form")
+                    .padding()
             }
-            .frame(width: 100, height: 50)
-            .background(Color.green)
-            .foregroundColor(.white)
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
             .cornerRadius(10)
             
             Button(action: {
                 withAnimation() {
-                   
+                    goku = "ss1"
                 }
             }) {
-                Text("-")
-                    .padding(10)
+                Text("Super Saiyan 1")
+                    .padding()
             }
-            .frame(width: 100, height: 50)
-            .background(Color.green)
-            .foregroundColor(.white)
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
             .cornerRadius(10)
             
             Button(action: {
                 withAnimation() {
-                   
+                    goku = "ss2"
                 }
             }) {
-                Text("-")
-                    .padding(10)
+                Text("Super Saiyan 2")
+                    .padding()
             }
-            .frame(width: 100, height: 50)
-            .background(Color.green)
-            .foregroundColor(.white)
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
             .cornerRadius(10)
             
             Button(action: {
                 withAnimation() {
-                   
+                    goku = "ss3"
                 }
             }) {
-                Text("-")
-                    .padding(10)
-            }.buttonStyle(MyGradientStyle ())
+                Text("Super Saiyan 3")
+                    .padding()
+            }
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                    goku = "ss4"
+                }
+            }) {
+                Text("Super Saiyan 4")
+                    .padding()
+            }
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                    goku = "blue"
+                }
+            }) {
+                Text("Super Saiyan God Blue")
+                    .padding()
+            }
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
+            .cornerRadius(10)
+            
+            Button(action: {
+                withAnimation() {
+                    goku = "mui"
+                }
+            }) {
+                Text("Mastered Ultra Instinct")
+                    .padding()
+            }
+            .frame(width: 300, height: 50)
+            .background(Color.blue)
+            .foregroundColor(.yellow)
+            .cornerRadius(10)
+            
             
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.orange)
         
     }
 }
