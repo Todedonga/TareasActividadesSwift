@@ -2,7 +2,7 @@
 //  Transaccion.swift
 //  tarjetas_nav
 //
-//  Created by Zurisabdai Núñez Velázquez on 27/10/25.
+//  Created by win603 on 27/10/25.
 //
 
 import Foundation
